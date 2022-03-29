@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 74
+  controlID: 105
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 75
+  controlID: 79
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 76
+  controlID: 80
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,15 +326,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/RW/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\student\Desktop\Assets\Introduction to Scripting Part
-    1 Starter
+  m_LastProjectPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 303f0000
-    m_LastClickedID: 16176
-    m_ExpandedIDs: 00000000203f0000223f0000303f000000ca9a3b
+    m_SelectedIDs: 02390000
+    m_LastClickedID: 14594
+    m_ExpandedIDs: 00000000d6370000da37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -362,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000d6370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,21 +486,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ebbffff60d7ffff00d8ffff46eaffff94eaffffaaeaffff3af1ffff7c3f0000
+      m_ExpandedIDs: 4afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Hay Bale
+        m_OriginalName: Hay Bale
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 14630
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -548,9 +547,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6399231, y: 6.1011353, z: -4.908703}
+    m_Target: {x: 12.089491, y: -26.54356, z: 15.730032}
     speed: 2
-    m_Value: {x: 0.6399231, y: 6.1011353, z: -4.908703}
+    m_Value: {x: 12.089491, y: -26.54356, z: 15.730032}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -597,13 +596,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.007287874, y: 0.9718525, z: -0.23351666, w: -0.030330855}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.007287873, y: 0.97185236, z: -0.23351663, w: -0.030330852}
   m_Size:
-    m_Target: 15.251246
+    m_Target: 57.10446
     speed: 2
-    m_Value: 15.251246
+    m_Value: 57.10446
   m_Ortho:
     m_Target: 0
     speed: 2
