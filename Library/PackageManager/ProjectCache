@@ -1,19 +1,19 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/student/Desktop/Introduction to Scripting Part 1 Starter/Packages/manifest.json
+    m_FilePath: C:/Users/ibrahim/Documents/GitHub/SheepHitGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637841312541370421
-    m_Hash: 1689053236
+      ticks: 637846630135985749
+    m_Hash: 1037190549
   m_LockFileStatus:
-    m_FilePath: C:/Users/student/Desktop/Introduction to Scripting Part 1 Starter/Packages/packages-lock.json
+    m_FilePath: C:/Users/ibrahim/Documents/GitHub/SheepHitGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637841396968923348
+      ticks: 637846632288985688
     m_Hash: 3041924395
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -126,7 +126,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\ibrahim\Documents\GitHub\SheepHitGame\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -142,9 +142,21 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -164,7 +176,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -177,7 +189,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\ibrahim\Documents\GitHub\SheepHitGame\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -292,7 +304,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\ibrahim\Documents\GitHub\SheepHitGame\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -383,7 +395,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\ibrahim\Documents\GitHub\SheepHitGame\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -456,7 +468,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: C:\Users\student\Desktop\Introduction to Scripting Part 1 Starter\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\ibrahim\Documents\GitHub\SheepHitGame\Library\PackageCache\com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -2361,5 +2373,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/student/Desktop/Introduction to Scripting Part 1 Starter/Packages
+m_ProjectPath: C:/Users/ibrahim/Documents/GitHub/SheepHitGame/Packages
 m_EditorVersion: 2020.3.0f1 (c7b5465681fb)
