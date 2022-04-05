@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5C779D59-28EA-14E2-5C8A-04D269DB6407}</ProjectGuid>
+    <ProjectGuid>{314BC61A-6074-0E4A-2044-25E67933486A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\RW\Scripts\Sheep.cs" />
     <Compile Include="Assets\RW\Scripts\Move.cs" />
-    <Compile Include="Assets\RW\Scripts\Rotate.cs" />
     <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
     <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
-    <Compile Include="Assets\RW\Scripts\Sheep.cs" />
+    <Compile Include="Assets\RW\Scripts\Rotate.cs" />
+    <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
+    <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
+    <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\GameStateManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
