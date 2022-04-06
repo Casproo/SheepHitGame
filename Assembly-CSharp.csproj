@@ -56,16 +56,23 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\GameStateManager.cs" />
+    <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
     <Compile Include="Assets\RW\Scripts\Sheep.cs" />
     <Compile Include="Assets\RW\Scripts\Move.cs" />
     <Compile Include="Assets\RW\Scripts\HayMachine.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
     <Compile Include="Assets\RW\Scripts\DestroyOnTrigger.cs" />
     <Compile Include="Assets\RW\Scripts\Rotate.cs" />
     <Compile Include="Assets\RW\Scripts\SheepSpawner.cs" />
-    <Compile Include="Assets\RW\Scripts\TweenScale.cs" />
-    <Compile Include="Assets\RW\Scripts\DestroyTimer.cs" />
-    <Compile Include="Assets\RW\Scripts\Managers\SoundManager.cs" />
-    <Compile Include="Assets\RW\Scripts\Managers\GameStateManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Managers\UIManager.cs" />
+    <Compile Include="Assets\RW\Scripts\Title\StartButton.cs" />
+    <Compile Include="Assets\RW\Scripts\Title\QuitButton.cs" />
+    <Compile Include="Assets\RW\Scripts\Title\ChangeColorOnMouseOver.cs" />
+    <Compile Include="Assets\RW\Scripts\Shared\HayMachineColor.cs" />
+    <Compile Include="Assets\RW\Scripts\Shared\GameSettings.cs" />
+    <Compile Include="Assets\RW\Scripts\Shared\HayMachineSwitcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -10,7 +10,39 @@ public class HayMachine : MonoBehaviour
     public GameObject hayBalePrefab;
     public Transform haySpawnpoint;
     public float shootInterval;
-    public float shootTimer;
+    private float shootTimer;
+    public Transform modelParent; // 1
+
+    // 2
+    public GameObject blueModelPrefab;
+    public GameObject yellowModelPrefab;
+    public GameObject redModelPrefab;
+
+    private void LoadModel()
+    {
+        Destroy(modelParent.GetChild(0).gameObject); // 1
+
+        switch (GameSettings.hayMachineColor) // 2
+        {
+            case HayMachineColor.Blue:
+                Instantiate(blueModelPrefab, modelParent);
+                break;
+
+            case HayMachineColor.Yellow:
+                Instantiate(yellowModelPrefab, modelParent);
+                break;
+
+            case HayMachineColor.Red:
+                Instantiate(redModelPrefab, modelParent);
+                break;
+        }
+    }
+    private void Start()
+    {
+        LoadModel();
+
+    }
+
     void Update()
     {
         UpdateMovement();
@@ -32,6 +64,7 @@ public class HayMachine : MonoBehaviour
     private void ShootHay()
     {
         Instantiate(hayBalePrefab, haySpawnpoint.position, Quaternion.identity);
+        SoundManager.Instance.PlayShootClip();
     }
     private void UpdateShooting()
     {

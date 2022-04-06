@@ -27,16 +27,22 @@ public class GameStateManager : MonoBehaviour
     public void SavedSheep()
     {
         sheepSaved++;
+        UIManager.Instance.UpdateSheepSaved();
+
     }
-    public void GameOver()
+    private void GameOver()
     {
         sheepSpawner.canSpawn = false;
         sheepSpawner.DestroyAllSheep();
+        UIManager.Instance.ShowGameOverWindow();
+
     }
     public void DroppedSheep()
     {
         sheepDropped++;
-        if(sheepDropped == sheepDroppedBeforeGameOver)
+        UIManager.Instance.UpdateSheepDropped();
+
+        if (sheepDropped == sheepDroppedBeforeGameOver)
         {
             GameOver();
         }

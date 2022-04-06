@@ -24,7 +24,7 @@ public class SoundManager : MonoBehaviour
     {
         PlaySound(shootClip);
     }
-    public void PlaySheepHit()
+    public void PlaySheepHitClip()
     {
         PlaySound(sheepHitClip);
     }
